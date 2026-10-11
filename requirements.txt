@@ -1,0 +1,12 @@
+# AirWheel runtime dependencies.
+# Phase 1 needs only the standard library. The packages below are for later
+# phases; versions are lower bounds only and MUST be verified/pinned against
+# current releases before Phase 2 (see requirements-lock.txt once created).
+# Python: 3.10-3.12 recommended (check MediaPipe's supported versions first).
+numpy>=1.26
+opencv-python>=4.9
+mediapipe>=0.10
+PySide6>=6.6
+psutil>=5.9
+keyboard>=0.13     # Windows keyboard fallback backend (needs admin to hook global keys)
+vgamepad>=0.1.0    # Windows virtual XInput controller (installs ViGEmBus driver)

@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+logs/
+*.log
+build/
+dist/
+*.spec
+data/
+portable.flag
+.pytest_cache/
